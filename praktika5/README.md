@@ -1,16 +1,26 @@
-# 
+#ПРАКТИЧЕСКАЯ РАБОТА №5
+Тема: Реализация передачи данных между экранами».
+Цель работы: Реализовать передачу данных между экранами. сохранение данных в SharedPrefrences.  Реализовать восстановление данных после закрытия приложения. Если есть данные в SharedPrefrences открыть 2 экран, если данных нет то открыть 1 экран (на оценку 4).
+Ход работы: 
+Для начала необходимо установить дополнение SharedPrefrences. Оно отвечает за сохранение данных, которые мы будем в дальнейшем передавать.
 
-A new Flutter project.
+ ![image](https://user-images.githubusercontent.com/99449281/206529251-cb09e83c-f070-44de-8f2e-01670f6fd75a.png)
 
-## Getting Started
+Сохранение данных в SharedPrefrences осуществляется через данную команду. В ‘’ указывается название ячейки, куда записывается значение.
 
-This project is a starting point for a Flutter application.
+ ![image](https://user-images.githubusercontent.com/99449281/206529325-154dc80c-1c94-4ce2-a64d-940f8b0cad54.png)
 
-A few resources to get you started if this is your first Flutter project:
+Вывод данных происходит через аналогичную команду, в скобках записывается та ячейка, из которой вытаскиваются данные.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![image](https://user-images.githubusercontent.com/99449281/206529409-0aed889a-e89c-43f0-a4b5-337fa0c247cf.png)
+ 
+При запуске приложения, если нет данных, то запускается начальное окно, а если есть данные – то второе окно, в котором выводятся данные.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ ![image](https://user-images.githubusercontent.com/99449281/206529495-c8ba82cd-c392-4c88-a98b-b4fc739e34bf.png)
+
+Итог:
+ 
+![image](https://user-images.githubusercontent.com/99449281/206529593-1595511e-026f-434a-a232-24e32527a2b2.png)
+ 
+![image](https://user-images.githubusercontent.com/99449281/206529620-96229203-cc4f-4601-9228-0c94456ce8cb.png)
+
